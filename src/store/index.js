@@ -4,6 +4,7 @@ const INITIAL_STATE = {
   data: ['React Native', 'ReactJS']
 }
 
+// Reducer, pode ser posto em outro arquivo
 function courses (state = INITIAL_STATE, action) {
   switch (action.type) {
     case 'ADD_COURSE':
